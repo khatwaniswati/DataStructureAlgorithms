@@ -17,7 +17,7 @@ public class ReverseLinkedList {
 		BuildingLinkedList.traverse(head);
 	}
 
-	private static Node  reverse(Node head) {
+	public static Node  reverse(Node head) {
 		Node prev=null;
 		Node cur=head;
 		while (cur!=null) {

@@ -77,6 +77,7 @@ public class GraphBfsDfs {
 			distance++;
 			cur = parent[cur];
 		}
+		System.out.print(source);
 		System.out.println();
 		return distance;
 	}
