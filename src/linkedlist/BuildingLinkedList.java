@@ -17,7 +17,7 @@ public class BuildingLinkedList {
 	public static void traverse(Node head) {
 		Node cur = head;
 		while(cur!=null) {
-			System.out.println(cur.getData());
+			System.out.println(cur.getData() +" "+cur.getRandom().getData());
 			cur=cur.getNext();
 		}
 	}
