@@ -12,7 +12,7 @@ public class MaxAreaInHistogram {
 		System.out.println("MaxArea:" + maxArea);
 	}
 
-	private static int maxArea(int[] arr) {
+	public static int maxArea(int[] arr) {
 		int maxArea = 0;
 		int[] prevSmaller = prevSmaller(arr);
 		int[] nextSmaller = nextSmaller(arr);
